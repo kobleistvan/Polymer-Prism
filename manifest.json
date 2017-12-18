@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "Polymer Prism",
+    "description": "Look through Polymer 1 & 2 web components through a prism. View and modify component properties on the fly through chrome developer tools.",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon128.png"
+    },
+
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+
+    "devtools_page": "prism.html",
+    "permissions": ["tabs", "http://*/*", "https://*/*"]
+}
