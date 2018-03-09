@@ -3,7 +3,6 @@
     "name": "Polymer Prism",
     "version": "1.0",
 
-    "default_locale": "en",
     "description": "Look through Polymer 1 & 2 web components through a prism. View and modify component properties on the fly through chrome developer tools.",
     "icons": {
         "16": "icon16.png",
