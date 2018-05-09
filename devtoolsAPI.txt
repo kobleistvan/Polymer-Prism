@@ -1,0 +1,29 @@
+panels:
+    SearchAction
+    applyStyleSheet
+    elementssources
+    themeName
+
+ExtensionSidebarPane:
+    onHidden
+    onShown
+    setExpression(string expression, string rootTitle, function callback)
+    setHeight
+    setObject(string jsonObject, string rootTitle, function callback)
+    setPage(string path)
+
+ExtensionPanel:
+    createStatusBarButton
+    onHidden
+    onSearch
+    onShown
+    show
+
+SourcesPanel:
+    createSidebarPane(string title, function callback)
+    onSelectionChanged
+
+ElementsPanel:
+    createSidebarPane(string title, function callback)
+    onSelectionChanged
+
